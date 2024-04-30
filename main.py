@@ -24,3 +24,9 @@ if __name__ == "__main__":
 
   iterator = map(lambda bonus: bonus * 2, bonuses)
   print(list(iterator))
+
+  # Using the Python map() function for a list of strings
+
+  names = ["david", "peter", "jenifer"]
+  new_names = list(map(lambda name: name.capitalize(), names))
+  print(new_names)
